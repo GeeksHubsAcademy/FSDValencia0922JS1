@@ -261,3 +261,132 @@ Soy un comentario multilinea.
 
 //BUCLE FOR
 
+// for(let i = 1; i <= 20; i++){
+
+//     console.log(i);
+
+// };
+
+// let tabla = 3;
+
+// for(let i = 1; i <= 10; i++ ){
+
+//     console.log(tabla * i);
+// };
+
+
+
+
+
+
+
+//FUNCIONES
+
+
+// function Sumar(num1, num2){
+
+//     ;
+
+//     return num1 + num2; 
+
+// };
+
+// let resultadoDeSumar = Sumar(3,4);
+// let resultadoDeSumarDeNuevo = Sumar(6,7);
+
+
+// console.log(resultadoDeSumar);
+
+
+// //Esto corresponde a la DECLARACION de la función
+// function Sumar(num1,num2){
+//     return console.log(num1 + num2);
+// };
+
+// //Aqui es cuando se ejecuta
+// Sumar(2,3);
+
+
+// let contenedor = function (num1,num2){ return num1 - num2};
+
+// console.log(contenedor(4,2));
+
+
+// function Dividir(num1,num2){
+//     let resultado = num1 / num2;
+
+//     return resultado;
+// };
+
+// let resultadoDeDividir = Dividir(10,5);
+
+// console.log(resultadoDeDividir);
+
+// let resultado = function () { 
+//     let num1 = parseInt(prompt("Dime una base"));
+//     let num2 = parseInt(prompt("Dime el exponente"));
+
+//     return console.log(num1 ** num2);
+// };
+
+// resultado()
+
+// function Elevar(){
+//     let num1 = parseInt(prompt("Dime el numero base"));
+//     let num2 = parseInt(prompt("Dime el exponente"));
+
+//     let resultado = num1 ** num2;
+
+//     return console.log(resultado);
+// };
+
+// Elevar();
+
+// function Elevar(pepe,manolo){
+//     return console.log(pepe ** manolo);
+// }
+
+// let num1 = parseInt(prompt("Dime el numero base"));
+// let num2 = parseInt(prompt("Dime el exponente"));
+
+// Elevar(num1,num2);
+
+
+
+// let manelHobbie1 = "Tocar el bajo";
+// let manelHobbie2 = "Leer";
+// let manelHobbie3 = "Cine";
+// let manelHobbie4 = "Programación";
+
+// let manelArrayHobbies = ["Tocar el bajo","Leer","Cine","Programación"];
+
+// console.log(manelArrayHobbies[2]);
+
+// let bebida = "Agua";
+
+// let comida = "Pan duro";
+
+// let numero = 8;
+
+// let hobbiesLiza = ["Leer","Running","Estudiar programación"];
+
+// let arrayClase = [bebida,comida,numero,hobbiesLiza];
+
+// console.log(arrayClase);
+
+// let numeros = [];
+
+// for(let i = 1; i <= 100; i++){
+
+
+//     numeros.push(i);
+// };
+
+// console.log(numeros);
+
+
+let alumnosAmigos = ["Alex Lopez","Joan","Marta","Elvis","Jesus","Julio Cesar"];
+
+for(let i = 0; i < alumnosAmigos.length; i++){
+    console.log("Hola ",alumnosAmigos[i]);
+};
