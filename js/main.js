@@ -404,21 +404,28 @@ Operacion = pi multiplicado por R al cuadrado... (*), (**)
 
 */
 
-let radio = " ";
+// let radio = " ";
 
-console.log(typeof radio);
+// console.log(typeof radio);
 
-do{
+// do{
 
-    radio = parseInt(prompt("Hola, dime el radio...."));
-    // console.log(radio);
+//     radio = parseInt(prompt("Hola, dime el radio...."));
+//     // console.log(radio);
 
-}while(isNaN(radio));
+// }while(isNaN(radio));
 
 
     
-let PI = Math.PI;
+// let PI = Math.PI;
 
-let resultado = parseInt(PI * (radio ** 2));
+// let resultado = parseInt(PI * (radio ** 2));
 
-console.log(resultado);
+// console.log(resultado);
+
+for(let i = 1; i <= 100; i++){
+    
+    if((i % 2 == 0) && (i % 3 == 0)){
+        console.log(i);
+    };
+};
