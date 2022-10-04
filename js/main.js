@@ -385,8 +385,40 @@ Soy un comentario multilinea.
 // console.log(numeros);
 
 
-let alumnosAmigos = ["Alex Lopez","Joan","Marta","Elvis","Jesus","Julio Cesar"];
+// let alumnosAmigos = ["Alex Lopez","Joan","Marta","Elvis","Jesus","Julio Cesar"];
 
-for(let i = 0; i < alumnosAmigos.length; i++){
-    console.log("Hola ",alumnosAmigos[i]);
-};
+// for(let i = 0; i < alumnosAmigos.length; i++){
+//     console.log("Hola ",alumnosAmigos[i]);
+// };
+
+
+/*
+
+Haz una aplicación que calcule el área de un círculo (pi*R2). El radio se pedirá
+por teclado (recuerda pasar de String a double con parseDouble). Usa la
+constante PI.
+
+
+Operacion = pi multiplicado por R al cuadrado... (*), (**)
+
+
+*/
+
+let radio = " ";
+
+console.log(typeof radio);
+
+do{
+
+    radio = parseInt(prompt("Hola, dime el radio...."));
+    // console.log(radio);
+
+}while(isNaN(radio));
+
+
+    
+let PI = Math.PI;
+
+let resultado = parseInt(PI * (radio ** 2));
+
+console.log(resultado);
